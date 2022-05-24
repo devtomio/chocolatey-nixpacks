@@ -1,1 +1,5 @@
-# chocolatey-railway
+# chocolatey-nixpacks
+
+```sh
+choco install nixpacks
+```
