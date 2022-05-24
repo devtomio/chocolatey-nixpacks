@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>nixpacks</id>
+    <title>nixpacks</title>
+    <version>0.0.17</version>
+    <authors>Tomio</authors>
+    <owners>Railway Corp.</owners>
+    <summary>App source + Nix packages + Docker = Image</summary>
+    <description>
+      Nixpacks takes a source directory and produces an OCI compliant image that can be deployed anywhere. The project
+      was started by the Railway team as an alternative to Buildpacks and attempts to address a lot of the shortcomings
+      and issues that occurred when deploying thousands of user apps to the Railway platform. The biggest change is that
+      system and language dependencies are pulled from the Nix ecosystem, which provides a bunch of benefits.
+    </description>
+    <releaseNotes>https://github.com/railwayapp/nixpacks/releases/tag/v0.0.17</releaseNotes>
+    <projectUrl>https://github.com/railwayapp/nixpacks</projectUrl>
+    <projectSourceUrl>https://github.com/railwayapp/nixpacks</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/railwayapp/nixpacks/issues</bugTrackerUrl>
+    <docsUrl>https://github.com/railwayapp/nixpacks/tree/main/docs</docsUrl>
+    <packageSourceUrl>https://github.com/devtomio/chocolatey-railway</packageSourceUrl>
+    <tags>nixpacks docker packages image</tags>
+    <copyright></copyright>
+    <licenseUrl>https://github.com/railwayapp/nixpacks/blob/main/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <dependencies>
+      <dependency id="vcredist2015" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+    <file src="legal\**" target="legal" />
+  </files>
+</package>
