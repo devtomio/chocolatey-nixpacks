@@ -4,7 +4,7 @@
   <metadata>
     <id>nixpacks</id>
     <title>nixpacks</title>
-    <version>0.1.0.20220623</version>
+    <version>0.1.0</version>
     <authors>Tomio</authors>
     <owners>Railway Corp.</owners>
     <summary>App source + Nix packages + Docker = Image</summary>

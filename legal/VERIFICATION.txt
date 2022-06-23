@@ -8,7 +8,7 @@ Package can be verified like this:
 1. Go to
 
    x32: https://github.com/railwayapp/nixpacks/releases/download/v0.1.0/nixpacks-v0.1.0-i686-pc-windows-msvc.zip
-   x64: https://github.com/railwayapp/nixpacks/releases/download/v0.1.0/nixpacks-v0.1.0-aarch64-pc-windows-msvc.zip
+   x64: https://github.com/railwayapp/nixpacks/releases/download/v0.1.0/nixpacks-v0.1.0-x86_64-pc-windows-msvc.zip
 
    to download the zip.
 
@@ -17,4 +17,4 @@ Package can be verified like this:
    - Use Chocolatey utility 'checksum.exe'
 
    checksum32: A40BFDC343803C37FC0BF98C3CD024F888FB9514A8B7B4AD6CF4CA0E78306DC0
-   checksum64: 625F925BF6C79B75C708141D71315EFF4F7B6517826AC391E1BA98E118C50AEC
+   checksum64: 7B605E5093404CC91BB7841A757661AB33097E40F18F5B2B2FED706914B70881
