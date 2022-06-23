@@ -5,8 +5,8 @@ $toolsDir               = "$(Split-Path -parent $MyInvocation.MyCommand.Definiti
 $packageArgs = @{
     PackageName    = $env:ChocolateyPackageName
     Destination    = $toolsDir
-    FileFullPath   = Join-Path $toolsDir 'nixpacks-v0.0.17-i686-pc-windows-msvc.zip'
-    FileFullPath64 = Join-Path $toolsDir 'nixpacks-v0.0.17-aarch64-pc-windows-msvc.zip'
+    FileFullPath   = Join-Path $toolsDir 'nixpacks-v0.1.0-i686-pc-windows-msvc.zip'
+    FileFullPath64 = Join-Path $toolsDir 'nixpacks-v0.1.0-aarch64-pc-windows-msvc.zip'
 }
 
 #Remove old versions of nixpacks in the tools directory

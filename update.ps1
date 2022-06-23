@@ -31,7 +31,7 @@ function global:au_GetLatest {
     @{
         URL32 = $url32
         URL64 = $url64
-        Version = "0.0.17"
+        Version = "0.1.0"
     }
 }
 

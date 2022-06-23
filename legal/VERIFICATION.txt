@@ -7,8 +7,8 @@ Package can be verified like this:
 
 1. Go to
 
-   x32: https://github.com/railwayapp/nixpacks/releases/download/v0.0.17/nixpacks-v0.0.17-i686-pc-windows-msvc.zip
-   x64: https://github.com/railwayapp/nixpacks/releases/download/v0.0.17/nixpacks-v0.0.17-aarch64-pc-windows-msvc.zip
+   x32: https://github.com/railwayapp/nixpacks/releases/download/v0.1.0/nixpacks-v0.1.0-i686-pc-windows-msvc.zip
+   x64: https://github.com/railwayapp/nixpacks/releases/download/v0.1.0/nixpacks-v0.1.0-aarch64-pc-windows-msvc.zip
 
    to download the zip.
 
@@ -16,5 +16,5 @@ Package can be verified like this:
    - Use powershell function 'Get-FileHash'
    - Use Chocolatey utility 'checksum.exe'
 
-   checksum32: 8AF87734A8D937283C885EE9B2B5FFA1FAC86F5319E1DD7954E452099A648A99
-   checksum64: F7163394EE2463B90AE8D5ACC04606D4B97421D6FB5A35A42D6BD2EAA42EDBB1
+   checksum32: A40BFDC343803C37FC0BF98C3CD024F888FB9514A8B7B4AD6CF4CA0E78306DC0
+   checksum64: 625F925BF6C79B75C708141D71315EFF4F7B6517826AC391E1BA98E118C50AEC
