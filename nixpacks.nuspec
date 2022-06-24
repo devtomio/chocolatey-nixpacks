@@ -4,16 +4,16 @@
   <metadata>
     <id>nixpacks</id>
     <title>nixpacks</title>
-    <version>0.1.0</version>
+    <version>0.1.2</version>
     <authors>Tomio</authors>
     <owners>Railway Corp.</owners>
-    <summary>App source + Nix packages + Docker = Image</summary>
+    <summary>Generate an OCI compliant image based off app source.</summary>
     <description><![CDATA[Nixpacks takes a source directory and produces an OCI compliant image that can be deployed anywhere. The project
       was started by the Railway team as an alternative to Buildpacks and attempts to address a lot of the shortcomings
       and issues that occurred when deploying thousands of user apps to the Railway platform. The biggest change is that
       system and language dependencies are pulled from the Nix ecosystem, which provides a bunch of benefits.
     ]]></description>
-    <releaseNotes>https://github.com/railwayapp/nixpacks/releases/tag/v0.0.17</releaseNotes>
+    <releaseNotes>https://github.com/railwayapp/nixpacks/releases/tag/v0.1.2</releaseNotes>
     <projectUrl>https://github.com/railwayapp/nixpacks</projectUrl>
     <projectSourceUrl>https://github.com/railwayapp/nixpacks</projectSourceUrl>
     <bugTrackerUrl>https://github.com/railwayapp/nixpacks/issues</bugTrackerUrl>
